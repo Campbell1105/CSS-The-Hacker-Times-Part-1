@@ -12,11 +12,68 @@ body {
 
 }
 
+.date {
+    color: gray;
+    font-weight: 150;
+    font-family: sans-serif;
+}
+
 h1 {
     display: flex;
     justify-content: center;
-    size: 60px;
+    font-size: 3.2em;
     width: 100%;
-    font-weight: 900;
+    font-weight: 9000; 
+}
+
+nav {
+    width: 100%;
+    padding: .5em;
+    border-top: solid lightgray 1px;
+    border-bottom: solid lightgray 1px;
+    
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+    
+}
+
+nav li {
+	display: inline;
+    font-family: sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: .8em;
+	color: lightgray;
+	margin-right: 25px;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h5 {
+    color: red;
+    font-weight: 500;
+}
+
+.lead-photo {
+    display: flex;
+    width: 100%;
+
+}
+
+.para1 {
+    color: gray;
+    font-weight: 150;
+    font-family: sans-serif;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    border-bottom: solid gray 1px;
 }
 
