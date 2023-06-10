@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
 body {
-    background-color: lightgray;
+    background-color: #eee;
     margin: 7em;
+
 }
 
 .newspaper-container {
@@ -21,6 +22,7 @@ body {
 h1 {
     display: flex;
     justify-content: center;
+    font-family: abril fatface;
     font-size: 3.2em;
     width: 100%;
     font-weight: 9000; 
@@ -28,9 +30,9 @@ h1 {
 
 nav {
     width: 100%;
-    padding: .5em;
-    border-top: solid lightgray 1px;
-    border-bottom: solid lightgray 1px;
+    /* padding: .5em; */
+    border-top: solid #eee 1px;
+    border-bottom: solid #eee 1px;
     
 }
 
@@ -48,13 +50,14 @@ nav li {
 nav a {
 	text-decoration: none;
 	font-size: .8em;
-	color: lightgray;
+	color: #777;
 	margin-right: 25px;
 }
 
 h2 {
     font-size: 2.5em;
     font-weight: 500;
+    font-family: Sans Pro;
 }
 
 h5 {
@@ -71,9 +74,55 @@ h5 {
 .para1 {
     color: gray;
     font-weight: 150;
-    font-family: sans-serif;
+    font-family: roboto slab;
     padding-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-top: 1em;
     border-bottom: solid gray 1px;
 }
 
+.more-articles {
+    display: flex;
+    justify-content: center;
+    margin: 0 40 0 40;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.tabs-vs-spaces {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.caf-image {
+    width: 100%;
+}
+
+
+.caffine {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.para2 {
+    color: gray;
+    font-weight: 150;
+    font-family: roboto slab;
+    padding-bottom: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+ }
